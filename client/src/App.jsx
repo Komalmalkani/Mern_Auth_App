@@ -6,7 +6,7 @@ import Service from "./Pages/Service"
 import Contact from "./Pages/Contact"
 import Register from "./Pages/Register"
 import Login from "./Pages/Login"
-import Navbar from './components/Navbar'
+import Navbar from "../src/components/Navbar"
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
-          <Route path='/services' element={<Service/>}/>
+          <Route path='/service' element={<Service/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/login' element={<Login/>}/>

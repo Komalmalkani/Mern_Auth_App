@@ -1,5 +1,28 @@
 .container{
-    height: 100vh;
+    height: 10vh;
     width: 100%;
-    background-color: yellow;
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-brand a{
+color: white;
+font-size: 30px;
+}
+ul li{
+    display: flex;
+    gap: 20px;
+}
+ul li a{
+    color: white;
+    font-size: 13px;
+}
+.active{
+    color:plum;
+    font-size: 14px;
+    transition: .8s ease;
 }
