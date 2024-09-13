@@ -11,7 +11,7 @@ app.use("/api/auth",authRouter);
 app.use("/api/form",contactRoute)
 app.use(errorMiddleware);
 
-const PORT = 3000
+const PORT = 5000
 
 connectDB().then(()=>{
     app.listen(PORT,(req,res)=>{
