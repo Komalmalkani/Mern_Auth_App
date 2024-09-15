@@ -51,7 +51,10 @@ const handleInput = (e) =>{
               <label htmlFor="phone">email</label>
               <input type="Number" name="phone" placeholder="Enter Your phone" id="phone" required autoComplete="off"/>
             </div>
-            
+            <div>
+              <label htmlFor="password">email</label>
+              <input type="password" name="password" placeholder="Enter Your password" id="password" required autoComplete="off"/>
+            </div>
             <br/>
             <button type="submit" className="btn btn-submit">Register Now</button>
           </form>
