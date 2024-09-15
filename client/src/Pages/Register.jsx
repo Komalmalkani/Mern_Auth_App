@@ -1,16 +1,16 @@
 
 const Register = () => {
-// const [user , setUser] = useState({
-//   username:"",
-//   email:"",
-//   phone:"",
-//   password:"",
-// });
+const [user , setUser] = useState({
+  username:"",
+  email:"",
+  phone:"",
+  password:"",
+});
 
 // handling the input values
-// const handleInput = (e) =>{
-//   console.log(e);
-// }
+const handleInput = (e) =>{
+  console.log(e);
+}
 
 
   return (
@@ -26,6 +26,8 @@ const Register = () => {
             width="400" height="400"
           />
           </div>
+
+
           {/* {let's tackel registration Form } */}
           <div className="registeration-form">
           <h1 className="main-heading mb-3">Registeration Form</h1>
@@ -38,11 +40,7 @@ const Register = () => {
               // value={user.username}
               // onChange={handleInput}
               />
-             
-              
             </div>
-
-
             <div>
               <label htmlFor="email">email</label>
               <input type="email" name="email" placeholder="Enter Your Email" id="email" required autoComplete="off"/>
@@ -53,10 +51,7 @@ const Register = () => {
               <label htmlFor="phone">email</label>
               <input type="Number" name="phone" placeholder="Enter Your phone" id="phone" required autoComplete="off"/>
             </div>
-            <div>
-              <label htmlFor="password">email</label>
-              <input type="password" name="password" placeholder="Enter Your password" id="password" required autoComplete="off"/>
-            </div>
+            
             <br/>
             <button type="submit" className="btn btn-submit">Register Now</button>
           </form>
