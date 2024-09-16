@@ -56,7 +56,7 @@ const handleInput = (e) =>{
               <input type="password" name="password" placeholder="Enter Your password" id="password" required autoComplete="off"/>
             </div>
             <br/>
-
+            <button type="submit" className="btn btn-submit">Register Now</button>
           </form>
           </div>
 
