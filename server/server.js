@@ -8,7 +8,7 @@ const errorMiddleware = require("../server/middlewares/error-middleware")
 
 app.use(express.json());
 app.use("/api/auth",authRouter);
-app.use("/api/form",contactRoute)
+app.use("/api/form",contactRoute);
 app.use(errorMiddleware);
 
 const PORT = 5000
