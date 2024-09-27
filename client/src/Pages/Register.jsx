@@ -34,17 +34,17 @@ const Register = () => {
               <label htmlFor='Email'>
               Email 
               </label>
-              <input type='Email' name='email' placeholder='Enter your Email' id='Email' required autoComplete='off'/>
+              <input type='Email' name='email' placeholder='Enter your Email' id='Email' required autoComplete='off' value={user.email}/>
             <br/>
               <label htmlFor='phone'>
               phone
               </label>
-              <input type='Number' name='phone' placeholder='phone' id='phone' required autoComplete='off'/>
+              <input type='Number' name='phone' placeholder='phone' id='phone' required autoComplete='off' value={user.phone}/>
               <br/>
               <label htmlFor='Password'>
               Password
               </label>
-              <input type='password' name='Password' placeholder='Password' id='Password' required autoComplete='off'/>
+              <input type='password' name='Password' placeholder='Password' id='Password' required autoComplete='off'  value={user.password}/>
             </div>
             <br/>
             <button type='submit' className='btn'>Register Now</button>
