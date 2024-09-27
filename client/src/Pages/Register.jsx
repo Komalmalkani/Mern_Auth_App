@@ -1,6 +1,13 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Register = () => {
+  const [user,setUser] = useState({
+    username:'',
+    email:'',
+    phone:'',
+    password:'',
+  })
   return (
    <>
     <section>
@@ -20,7 +27,9 @@ const Register = () => {
               <label htmlFor='username'>
               Username
               </label>
-              <input type='text' name='username' placeholder='username' id='username' required autoComplete='off'/>
+              <input type='text' name='username' placeholder='username' id='username' required autoComplete='off' value={user.username}/>
+
+
              <br/>
               <label htmlFor='Email'>
               Email 
