@@ -10,8 +10,13 @@ const Register = () => {
       <div className='registeration-image'>
       <img src='/images/register.png' alt='a girl is trying to do registeration'
         width="400"
+        height="500"
       />
+      </div>
 
+      {/* {let tackle registeration form} */}
+      <div  className='registration-form'>
+<h1></h1>
       </div>
 
       </div>
