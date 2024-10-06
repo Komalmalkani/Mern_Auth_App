@@ -24,18 +24,22 @@ const Register = () => {
             <label htmlFor='username'>Username</label>
             <input type='text' name='username' placeholder='username'  id='username' required autoComplete='off'/>
           </div>
+          <br/>
           <div>
             <label htmlFor='email'>Email</label>
             <input type='email' name='email' placeholder='email'  id='email' required autoComplete='off'/>
           </div>
+          <br/>
           <div>
             <label htmlFor='phone'>Phone</label>
             <input type='number' name='phone' placeholder='phone'  id='phone' required autoComplete='off'/>
           </div>
+          <br/>
           <div>
             <label htmlFor='password'>password</label>
             <input type='password' name='password' placeholder='password'  id='password' required autoComplete='off'/>
           </div>
+          <br/>
          </form>
       </div>
 
