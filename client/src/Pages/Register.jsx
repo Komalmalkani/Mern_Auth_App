@@ -16,7 +16,15 @@ const Register = () => {
 
       {/* {let tackle registeration form} */}
       <div  className='registration-form'>
-<h1></h1>
+         <h1 className='main-heading mb-3'>registration-form</h1>
+         <br/>
+
+         <form>
+          <div>
+            <label htmlFor='username'>Username</label>
+            <input type='text' name='username' placeholder='username'  id='username'/>
+          </div>
+         </form>
       </div>
 
       </div>
