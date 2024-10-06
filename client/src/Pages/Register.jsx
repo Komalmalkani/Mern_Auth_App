@@ -29,7 +29,7 @@ const Register = () => {
             <input type='email' name='email' placeholder='email'  id='email' required autoComplete='off'/>
           </div>
           <div>
-            <label htmlFor='phone'>Username</label>
+            <label htmlFor='phone'>Phone</label>
             <input type='number' name='phone' placeholder='phone'  id='phone' required autoComplete='off'/>
           </div>
           <div>
