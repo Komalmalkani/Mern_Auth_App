@@ -22,7 +22,11 @@ const Register = () => {
          <form>
           <div>
             <label htmlFor='username'>Username</label>
-            <input type='text' name='username' placeholder='username'  id='username'/>
+            <input type='text' name='username' placeholder='username'  id='username' required autoComplete='off'/>
+          </div>
+          <div>
+            <label htmlFor='password'>password</label>
+            <input type='text' name='password' placeholder='password'  id='password' required autoComplete='off'/>
           </div>
          </form>
       </div>
